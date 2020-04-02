@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2,772.766" tests="37" errors="0" skipped="0" failures="21">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\java tutorials\Xampp.Carreg\target\test-classes;F:\java tutorials\Xampp.Carreg\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\decimal4j\decimal4j\1.0.3\decimal4j-1.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\sikulix\sikulixapi\2.0.4\sikulixapi-2.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\sikulix\sikulix2tigervnc\1.1.4\sikulix2tigervnc-1.1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna-platform\5.4.0\jna-platform-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\5.4.0\jna-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\oneandone\reflections8\reflections8\0.11.6\reflections8-0.11.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\tess4j\tess4j\4.4.1\tess4j-4.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ghost4j\ghost4j\1.0.1\ghost4j-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\1.4\xmlgraphics-commons-1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\pdfbox\2.0.17\pdfbox-2.0.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\fontbox\2.0.17\fontbox-2.0.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\pdfbox-tools\2.0.17\pdfbox-tools-2.0.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\pdfbox-debugger\2.0.17\pdfbox-debugger-2.0.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\jbig2-imageio\3.0.2\jbig2-imageio-3.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\lept4j\lept4j\1.12.3\lept4j-1.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jboss\jboss-vfs\3.2.14.Final\jboss-vfs-3.2.14.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jboss\logging\jboss-logging\3.1.4.GA\jboss-logging-3.1.4.GA.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jul-to-slf4j\1.7.28\jul-to-slf4j-1.7.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.28\jcl-over-slf4j-1.7.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.28\log4j-over-slf4j-1.7.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-nop\1.7.28\slf4j-nop-1.7.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.28\slf4j-api-1.7.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.26\snakeyaml-1.26.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
+    <property name="sun.java.command" value="C:\WINDOWS\TEMP\surefire18343100925417671028\surefirebooter10620507771138203881.jar C:\Windows\Temp\surefire18343100925417671028 2020-04-01T21-23-06_983-jvmRun1 surefire14344114261252711097tmp surefire_015213149825510846395tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\java tutorials\Xampp.Carreg\target\test-classes;F:\java tutorials\Xampp.Carreg\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\decimal4j\decimal4j\1.0.3\decimal4j-1.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\sikulix\sikulixapi\2.0.4\sikulixapi-2.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\sikulix\sikulix2tigervnc\1.1.4\sikulix2tigervnc-1.1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna-platform\5.4.0\jna-platform-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\5.4.0\jna-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\oneandone\reflections8\reflections8\0.11.6\reflections8-0.11.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\tess4j\tess4j\4.4.1\tess4j-4.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ghost4j\ghost4j\1.0.1\ghost4j-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\1.4\xmlgraphics-commons-1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\pdfbox\2.0.17\pdfbox-2.0.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\fontbox\2.0.17\fontbox-2.0.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\pdfbox-tools\2.0.17\pdfbox-tools-2.0.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\pdfbox-debugger\2.0.17\pdfbox-debugger-2.0.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\jbig2-imageio\3.0.2\jbig2-imageio-3.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\lept4j\lept4j\1.12.3\lept4j-1.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jboss\jboss-vfs\3.2.14.Final\jboss-vfs-3.2.14.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jboss\logging\jboss-logging\3.1.4.GA\jboss-logging-3.1.4.GA.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jul-to-slf4j\1.7.28\jul-to-slf4j-1.7.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.28\jcl-over-slf4j-1.7.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.28\log4j-over-slf4j-1.7.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-nop\1.7.28\slf4j-nop-1.7.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.28\slf4j-api-1.7.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.26\snakeyaml-1.26.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\java tutorials\Xampp.Carreg"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\WINDOWS\TEMP\surefire18343100925417671028\surefirebooter10620507771138203881.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="DESKTOP-KV0K3U5$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="F:\java tutorials\Xampp.Carreg"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk-13.0.2/bin;C:\Program Files\Java\jdk-13.0.2/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="validateHomePageIconTest" classname="testcases.HomePageTests" time="4.305"/>
+  <testcase name="validateNewBtnLinkTest" classname="testcases.HomePageTests" time="20.764"/>
+  <testcase name="validatePageTitleTest" classname="testcases.HomePageTests" time="0.093">
+    <failure message="expected [[Sell Your Car!] but found [Sell Your Car!]" type="java.lang.AssertionError">java.lang.AssertionError: expected [[Sell Your Car!] but found [Sell Your Car!]
+	at testcases.HomePageTests.validatePageTitleTest(HomePageTests.java:35)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 2234
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585790660.317][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:24:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585790666.130][WARNING]: Timed out connecting to Chrome, retrying...
+[1585790668.558][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585790668.708][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateSearchBtnLinkTest" classname="testcases.HomePageTests" time="21.02"/>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="92.293">
+    <failure message="expected [Invalid address] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid address] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[28
+9
+Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c9f4192eec63a631e26f6151d02ecac4)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c9f4192eec63a631e26f6151d02ecac4)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c9f4192eec63a631e26f6151d02ecac4)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c9f4192eec63a631e26f6151d02ecac4)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 32493
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585790715.051][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:25:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585790721.753][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="90.597">
+    <failure message="expected [Invalid name] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid name] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2c452d171d1afb34f4e14ba94c4c82f9)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2c452d171d1afb34f4e14ba94c4c82f9)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2c452d171d1afb34f4e14ba94c4c82f9)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2c452d171d1afb34f4e14ba94c4c82f9)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 2139
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585790845.042][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:27:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585790851.355][WARNING]: Timed out connecting to Chrome, retrying...
+[1585790876.025][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="47.229">
+    <failure message="expected [Invalid city] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid city] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6a887728ea1d293fa8b50015cb12ae8e)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6a887728ea1d293fa8b50015cb12ae8e)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6a887728ea1d293fa8b50015cb12ae8e)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6a887728ea1d293fa8b50015cb12ae8e)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 26086
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585790974.524][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:29:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585790980.440][WARNING]: Timed out connecting to Chrome, retrying...
+[1585791002.991][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585791003.954][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="21.824"/>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="46.069">
+    <failure message="expected [Invalid number] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid number] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8c30413a1eee502b23474b9f04ca6436)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8c30413a1eee502b23474b9f04ca6436)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8c30413a1eee502b23474b9f04ca6436)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8c30413a1eee502b23474b9f04ca6436)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 16198
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585791092.026][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:31:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585791098.759][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="88.771">
+    <failure message="expected [Invalid number] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid number] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d87e471e15e6db00cda8b0383ac7cb96)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d87e471e15e6db00cda8b0383ac7cb96)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d87e471e15e6db00cda8b0383ac7cb96)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d87e471e15e6db00cda8b0383ac7cb96)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 44045
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585791175.995][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:32:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585791183.473][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="77.064">
+    <failure message="expected [Invalid number] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid number] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (74b2aa3b328c01f4dc66d19dd7b8117f)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (74b2aa3b328c01f4dc66d19dd7b8117f)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (74b2aa3b328c01f4dc66d19dd7b8117f)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (74b2aa3b328c01f4dc66d19dd7b8117f)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 19809
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585791302.109][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:35:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585791308.448][WARNING]: Timed out connecting to Chrome, retrying...
+[1585791329.265][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="70.127">
+    <failure message="expected [Invalid number] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid number] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (33c7476a7b5f8e473886d2d5de35291a)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (33c7476a7b5f8e473886d2d5de35291a)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (33c7476a7b5f8e473886d2d5de35291a)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (33c7476a7b5f8e473886d2d5de35291a)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 46304
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585791415.126][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:36:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585791421.862][WARNING]: Timed out connecting to Chrome, retrying...
+[1585791445.786][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="90.455">
+    <failure message="expected [Invalid number] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid number] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c98d7077f956c40429416b57b3d905d9)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c98d7077f956c40429416b57b3d905d9)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c98d7077f956c40429416b57b3d905d9)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c98d7077f956c40429416b57b3d905d9)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 3800
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585791523.323][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:38:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585791529.060][WARNING]: Timed out connecting to Chrome, retrying...
+[1585791550.851][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="21.886"/>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="90.76">
+    <failure message="expected [Invalid email] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid email] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ca6b659d1ae5ed5c55d14d6faa7d447d)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ca6b659d1ae5ed5c55d14d6faa7d447d)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ca6b659d1ae5ed5c55d14d6faa7d447d)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ca6b659d1ae5ed5c55d14d6faa7d447d)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 22472
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585791689.972][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:41:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585791696.237][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="21.933"/>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="21.703">
+    <failure message="expected [Invalid email] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid email] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f1d6c7a3a559dd77c3d8324c67a860c8)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f1d6c7a3a559dd77c3d8324c67a860c8)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f1d6c7a3a559dd77c3d8324c67a860c8)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f1d6c7a3a559dd77c3d8324c67a860c8)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 23391
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585791850.523][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:44:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585791857.039][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="86.552">
+    <failure message="expected [Invalid email] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid email] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (748585785dbd9e16da109e4ff17c734a)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (748585785dbd9e16da109e4ff17c734a)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (748585785dbd9e16da109e4ff17c734a)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (748585785dbd9e16da109e4ff17c734a)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 22499
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585791910.461][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:45:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585791915.922][WARNING]: Timed out connecting to Chrome, retrying...
+[1585791938.229][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585791939.116][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="13.364">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;main2&apos;]//descendant::p[@id=&quot;message&quot;]&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-KV0K3U5&apos;, ip: &apos;192.168.0.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 4ed4eb8d85c5aba817ebf9e94630e6f6&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;main2&apos;]//descendant::p[@id=&quot;message&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='main2']//descendant::p[@id="message"]"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-KV0K3U5', ip: '192.168.0.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4ed4eb8d85c5aba817ebf9e94630e6f6
+*** Element info: {Using=xpath, value=//div[@class='main2']//descendant::p[@id="message"]}
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4ed4eb8d85c5aba817ebf9e94630e6f6)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4ed4eb8d85c5aba817ebf9e94630e6f6)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4ed4eb8d85c5aba817ebf9e94630e6f6)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4ed4eb8d85c5aba817ebf9e94630e6f6)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='main2']//descendant::p[@id="message"]"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-KV0K3U5', ip: '192.168.0.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4ed4eb8d85c5aba817ebf9e94630e6f6
+*** Element info: {Using=xpath, value=//div[@class='main2']//descendant::p[@id="message"]}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 6698
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585792033.486][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:47:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585792039.582][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="88.812">
+    <failure message="expected [Invalid year] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid year] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0b84cc8e5339af9a4c426fa6c0ec489e)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0b84cc8e5339af9a4c426fa6c0ec489e)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0b84cc8e5339af9a4c426fa6c0ec489e)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0b84cc8e5339af9a4c426fa6c0ec489e)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 37966
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585792059.884][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:47:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585792066.643][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="82.626">
+    <failure message="expected [Invalid year] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid year] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cfc81ad90686e9e8cbc719480028ace2)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cfc81ad90686e9e8cbc719480028ace2)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cfc81ad90686e9e8cbc719480028ace2)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cfc81ad90686e9e8cbc719480028ace2)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 40773
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585792186.411][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:49:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585792191.397][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="28.445">
+    <failure message="expected [Invalid year] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid year] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c36b74c60920152812e24bf7154fa55e)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c36b74c60920152812e24bf7154fa55e)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c36b74c60920152812e24bf7154fa55e)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c36b74c60920152812e24bf7154fa55e)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 1282
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585792305.282][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:51:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585792311.573][WARNING]: Timed out connecting to Chrome, retrying...
+[1585792334.977][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="21.992">
+    <failure message="expected [Invalid year] but found [Invalid Year]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid year] but found [Invalid Year]
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c98dcfc801e278036c707366f063e3a9)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c98dcfc801e278036c707366f063e3a9)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c98dcfc801e278036c707366f063e3a9)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c98dcfc801e278036c707366f063e3a9)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Trying to find Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+Found Element By : By.xpath: //div[@class='main2']//descendant::p[@id="message"]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 36721
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585792371.749][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 9:52:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585792375.787][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="85.21"/>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="81.077"/>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="24.263"/>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="21.75"/>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="45.178"/>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="21.857"/>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="71.267"/>
+  <testcase name="validateNewregistrationNegativeCases" classname="testcases.RegistrationPageTests" time="24.709"/>
+  <testcase name="validateNewregistrationPositiveCases" classname="testcases.RegistrationPageTests" time="6.114">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at testcases.RegistrationPageTests.validateNewregistrationPositiveCases(RegistrationPageTests.java:91)
+</failure>
+    <system-out><![CDATA[7
+8
+Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f1a73b8ac3c4584c356b0c7a165c68cb)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f1a73b8ac3c4584c356b0c7a165c68cb)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f1a73b8ac3c4584c356b0c7a165c68cb)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f1a73b8ac3c4584c356b0c7a165c68cb)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Internal Server Error
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 43177
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585793129.169][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 10:05:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585793133.268][WARNING]: Timed out connecting to Chrome, retrying...
+[1585793140.644][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationPositiveCases" classname="testcases.RegistrationPageTests" time="3.066"/>
+  <testcase name="validateNewregistrationPositiveCases" classname="testcases.RegistrationPageTests" time="3.055">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at testcases.RegistrationPageTests.validateNewregistrationPositiveCases(RegistrationPageTests.java:91)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ec40e3fa84fc27b7bdddc21c2380bbda)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ec40e3fa84fc27b7bdddc21c2380bbda)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ec40e3fa84fc27b7bdddc21c2380bbda)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ec40e3fa84fc27b7bdddc21c2380bbda)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+Internal Server Error
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 11520
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585793166.877][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 10:06:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585793171.514][WARNING]: Timed out connecting to Chrome, retrying...
+[1585793174.303][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationPositiveCases" classname="testcases.RegistrationPageTests" time="5.424"/>
+  <testcase name="validateNewregistrationPositiveCases" classname="testcases.RegistrationPageTests" time="23.573">
+    <failure message="Index 0 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at testcases.RegistrationPageTests.validateNewregistrationPositiveCases(RegistrationPageTests.java:79)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (5adef70fac8a540e9dea455490086385)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (5adef70fac8a540e9dea455490086385)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (5adef70fac8a540e9dea455490086385)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (5adef70fac8a540e9dea455490086385)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 11382
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585793223.749][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 10:07:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585793232.416][WARNING]: Timed out connecting to Chrome, retrying...
+[1585793266.316][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateNewregistrationPositiveCases" classname="testcases.RegistrationPageTests" time="22.637">
+    <failure message="Index 0 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at testcases.RegistrationPageTests.validateNewregistrationPositiveCases(RegistrationPageTests.java:79)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://localhost/seng8040a4/Home.html'
+Navigated to:'http://localhost/seng8040a4/Home.html'
+Trying to find Element By : By.xpath: //button[contains(text(),'New')]
+Found Element By : By.xpath: //button[contains(text(),'New')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c578183598edc48631c656a987aedb41)] -> xpath: //button[contains(text(),'New')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c578183598edc48631c656a987aedb41)] -> xpath: //button[contains(text(),'New')]]
+Trying to find Element By : By.cssSelector: #table1 tr td :last-child
+Found Element By : By.cssSelector: #table1 tr td :last-child
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c578183598edc48631c656a987aedb41)] -> css selector: #table1 tr td :last-child]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c578183598edc48631c656a987aedb41)] -> css selector: #table1 tr td :last-child]
+Trying to find Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Found Element By : By.xpath: //table[@id='table2']//tr//td[2]
+Trying to find Element By : By.cssSelector: div#sec1 a
+Found Element By : By.cssSelector: div#sec1 a
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 46301
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585793301.665][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 01, 2020 10:08:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585793309.698][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+</testsuite>

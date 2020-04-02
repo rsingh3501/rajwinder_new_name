@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="testcases.HomePageTests">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="validatePageTitleTest"/>
+        </methods>
+      </class> <!-- testcases.HomePageTests -->
+      <class name="testcases.RegistrationPageTests">
+        <methods>
+          <include name="validateNewregistrationNegativeCases" invocation-numbers="0 1 2 4 5 6 7 8 10 12 13 14 15 16 17 18"/>
+          <include name="validateNewregistrationPositiveCases" invocation-numbers="0 2 4 5"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.RegistrationPageTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

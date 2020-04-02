@@ -1,0 +1,97 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 21, Errors: 0, Skipped: 0, Time elapsed: 2,772.766 s <<< FAILURE! - in TestSuite
+validatePageTitleTest(testcases.HomePageTests)  Time elapsed: 0.093 s  <<< FAILURE!
+java.lang.AssertionError: expected [[Sell Your Car!] but found [Sell Your Car!]
+	at testcases.HomePageTests.validatePageTitleTest(HomePageTests.java:35)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 92.293 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid address] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 90.597 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid name] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 47.229 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid city] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 46.069 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid number] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 88.771 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid number] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 77.064 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid number] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 70.127 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid number] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 90.455 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid number] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 90.76 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid email] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 21.703 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid email] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 86.552 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid email] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 13.364 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='main2']//descendant::p[@id="message"]"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-KV0K3U5', ip: '192.168.0.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4ed4eb8d85c5aba817ebf9e94630e6f6
+*** Element info: {Using=xpath, value=//div[@class='main2']//descendant::p[@id="message"]}
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 88.812 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid year] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 82.626 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid year] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 28.445 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid year] but found []
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationNegativeCases(testcases.RegistrationPageTests)  Time elapsed: 21.992 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid year] but found [Invalid Year]
+	at testcases.RegistrationPageTests.validateNewregistrationNegativeCases(RegistrationPageTests.java:65)
+
+validateNewregistrationPositiveCases(testcases.RegistrationPageTests)  Time elapsed: 6.114 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testcases.RegistrationPageTests.validateNewregistrationPositiveCases(RegistrationPageTests.java:91)
+
+validateNewregistrationPositiveCases(testcases.RegistrationPageTests)  Time elapsed: 3.055 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testcases.RegistrationPageTests.validateNewregistrationPositiveCases(RegistrationPageTests.java:91)
+
+validateNewregistrationPositiveCases(testcases.RegistrationPageTests)  Time elapsed: 23.573 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at testcases.RegistrationPageTests.validateNewregistrationPositiveCases(RegistrationPageTests.java:79)
+
+validateNewregistrationPositiveCases(testcases.RegistrationPageTests)  Time elapsed: 22.637 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at testcases.RegistrationPageTests.validateNewregistrationPositiveCases(RegistrationPageTests.java:79)
+
