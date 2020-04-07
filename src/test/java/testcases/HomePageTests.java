@@ -3,29 +3,30 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+
 import org.testng.annotations.Test;
 
+
 import com.qa.carreg.base.TestBase;
-import com.qa.carreg.pages.SearchPage;
-import com.qa.carreg.pages.RegistrationPage;
 import com.qa.carreg.pages.HomePage;
 
 
 public class HomePageTests extends TestBase{
-	
-	SearchPage SearchPage;
-	RegistrationPage RegistrationPage;
-	HomePage HomePage;
+
+
 	
 	
 	public HomePageTests() {
-		super();
+	
 	}	
+	//	@Parameters({"browser"})
+		
 		
 	@BeforeMethod
 	public void setup() {
-		TestBase.initialization();
-		HomePage= new HomePage();
+		initialization();
+		HomePage = new HomePage();
+      
 	}
 	
 	

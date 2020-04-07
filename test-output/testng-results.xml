@@ -1,211 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-02T01:00:47Z" name="Default suite" finished-at="2020-04-02T01:01:00Z" duration-ms="12658">
+  <suite started-at="2020-04-07T13:40:31Z" name="Suite" finished-at="2020-04-07T13:41:28Z" duration-ms="56496">
     <groups>
     </groups>
-    <test started-at="2020-04-02T01:00:47Z" name="Default test" finished-at="2020-04-02T01:01:00Z" duration-ms="12658">
+    <test started-at="2020-04-07T13:40:31Z" name="Test" finished-at="2020-04-07T13:41:28Z" duration-ms="56496">
       <class name="testcases.HomePageTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HomePageTests@1cbbffcd]" started-at="2020-04-01T21:00:47Z" name="setup" finished-at="2020-04-01T21:00:59Z" duration-ms="12507" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy10.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
-	at com.qa.carreg.base.TestBase.initialization(TestBase.java:81)
-	at testcases.HomePageTests.setup(HomePageTests.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:40:31Z" name="setup" finished-at="2020-04-07T09:40:43Z" duration-ms="12030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateHomePageIconTest()[pri:0, instance:testcases.HomePageTests@1cbbffcd]" started-at="2020-04-01T21:00:59Z" name="validateHomePageIconTest" finished-at="2020-04-01T21:00:59Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy10.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
-	at com.qa.carreg.base.TestBase.initialization(TestBase.java:81)
-	at testcases.HomePageTests.setup(HomePageTests.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="validateHomePageIconTest()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:40:43Z" name="validateHomePageIconTest" finished-at="2020-04-07T09:40:44Z" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomePageIconTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HomePageTests@1cbbffcd]" started-at="2020-04-01T21:00:59Z" name="setup" finished-at="2020-04-01T21:00:59Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:40:44Z" name="teardown" finished-at="2020-04-07T09:40:45Z" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:40:45Z" name="setup" finished-at="2020-04-07T09:40:57Z" duration-ms="11643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateNewBtnLinkTest()[pri:0, instance:testcases.HomePageTests@1cbbffcd]" started-at="2020-04-01T21:00:59Z" name="validateNewBtnLinkTest" finished-at="2020-04-01T21:00:59Z" duration-ms="2" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy10.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
-	at com.qa.carreg.base.TestBase.initialization(TestBase.java:81)
-	at testcases.HomePageTests.setup(HomePageTests.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="validateNewBtnLinkTest()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:40:57Z" name="validateNewBtnLinkTest" finished-at="2020-04-07T09:40:58Z" duration-ms="1394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNewBtnLinkTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HomePageTests@1cbbffcd]" started-at="2020-04-01T21:00:59Z" name="setup" finished-at="2020-04-01T21:00:59Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:40:58Z" name="teardown" finished-at="2020-04-07T09:40:59Z" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:40:59Z" name="setup" finished-at="2020-04-07T09:41:10Z" duration-ms="11025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validatePageTitleTest()[pri:0, instance:testcases.HomePageTests@1cbbffcd]" started-at="2020-04-01T21:01:00Z" name="validatePageTitleTest" finished-at="2020-04-01T21:01:00Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="validatePageTitleTest()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:41:10Z" name="validatePageTitleTest" finished-at="2020-04-07T09:41:10Z" duration-ms="51" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[null value in entry: url=null]]>
+              <![CDATA[expected [[Sell Your Car!] but found [Sell Your Car!]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy10.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
-	at com.qa.carreg.base.TestBase.initialization(TestBase.java:81)
-	at testcases.HomePageTests.setup(HomePageTests.java:27)
+              <![CDATA[java.lang.AssertionError: expected [[Sell Your Car!] but found [Sell Your Car!]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at testcases.HomePageTests.validatePageTitleTest(HomePageTests.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
@@ -227,69 +76,27 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTitleTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HomePageTests@1cbbffcd]" started-at="2020-04-01T21:01:00Z" name="setup" finished-at="2020-04-01T21:01:00Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:41:10Z" name="teardown" finished-at="2020-04-07T09:41:11Z" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:41:11Z" name="setup" finished-at="2020-04-07T09:41:22Z" duration-ms="10858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateSearchBtnLinkTest()[pri:0, instance:testcases.HomePageTests@1cbbffcd]" started-at="2020-04-01T21:01:00Z" name="validateSearchBtnLinkTest" finished-at="2020-04-01T21:01:00Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy10.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
-	at com.qa.carreg.base.TestBase.initialization(TestBase.java:81)
-	at testcases.HomePageTests.setup(HomePageTests.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="validateSearchBtnLinkTest()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:41:22Z" name="validateSearchBtnLinkTest" finished-at="2020-04-07T09:41:26Z" duration-ms="4069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchBtnLinkTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.HomePageTests@a38c7fe]" started-at="2020-04-07T09:41:26Z" name="teardown" finished-at="2020-04-07T09:41:28Z" duration-ms="1782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- testcases.HomePageTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

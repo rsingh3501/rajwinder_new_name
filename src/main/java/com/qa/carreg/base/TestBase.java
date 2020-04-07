@@ -15,17 +15,26 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.yaml.snakeyaml.Yaml;
 
+import com.qa.carreg.pages.DisplayPage;
 import com.qa.carreg.pages.HomePage;
+import com.qa.carreg.pages.RegistrationPage;
+import com.qa.carreg.pages.SearchPage;
 import com.qa.carreg.util.WebEventListener;
 
 
 
 public class TestBase {
-	public static Yaml yaml = new Yaml();
+
 	public static Properties prop;	
 	public static WebDriver driver;
 	public static EventFiringWebDriver e_driver;
 	public static WebDriverEventListener eventListener;
+
+	
+	public SearchPage SearchPage;
+	public  RegistrationPage RegistrationPage;
+	public  HomePage HomePage;
+	public  DisplayPage DisplayPage;
 	
 	
 	
@@ -38,8 +47,8 @@ public class TestBase {
 	
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream(
-					"F:\\java tutorials\\Xampp.Carreg\\src\\main\\java\\com\\qa\\carreg\\config\\configuration.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+
+					"\\src\\main\\java\\com\\qa\\carreg\\config\\configuration.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -51,19 +60,19 @@ public class TestBase {
 		
 	
 
-
+    
 	public static void initialization() {
 		if(prop.getProperty("browser").equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", "C:\\chrodriver.exe");
 			driver = new ChromeDriver();
-		}	else if(prop.getProperty("browser").equals("chrome")){
-			
+	
+		}else if(prop.getProperty("browser").equals("firefox")){
 			System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
-		
-
 			driver = new FirefoxDriver();
-			System.out.println("Browser is FireFox");
-		} else {
+			
+			
+		}
+		else {
 			System.out.println("No Browser");
 		}
 		

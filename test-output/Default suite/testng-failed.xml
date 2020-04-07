@@ -5,11 +5,8 @@
     <classes>
       <class name="testcases.HomePageTests">
         <methods>
-          <include name="validateNewBtnLinkTest"/>
           <include name="setup"/>
-          <include name="validateHomePageIconTest"/>
           <include name="teardown"/>
-          <include name="validateSearchBtnLinkTest"/>
           <include name="validatePageTitleTest"/>
         </methods>
       </class> <!-- testcases.HomePageTests -->

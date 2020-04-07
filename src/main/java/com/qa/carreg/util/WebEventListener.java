@@ -10,7 +10,7 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 
 
 import com.qa.carreg.base.TestBase;
-
+import com.qa.carreg.util.TestUtil;
 public class WebEventListener extends TestBase implements WebDriverEventListener {
 	
 	public void beforeNavigateTo(String url, WebDriver driver) {
@@ -56,7 +56,7 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 	public void onException(Throwable error, WebDriver driver) {
 		System.out.println("Exception occured: " + error);
 		try {
-			TestUtil.takeScreenshotAtEndOfTest();
+			new TestUtil().takeScreenshotAtEndOfTest();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

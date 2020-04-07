@@ -10,19 +10,19 @@ public class HomePage extends TestBase{
 	
 	//PageFactory
 	@FindBy(xpath="//h1[contains(text(),'Sell your car!')]")
-	WebElement homePageIcon;
+	private WebElement homePageIcon;
 	
 	@FindBy(xpath="//button[contains(text(),'New')]")
-	WebElement newBtnLink;
+	private WebElement newBtnLink;
 	
 	@FindBy(xpath="//button[contains(text(),'Search')]")
-	WebElement searchBtnLink;
+	private WebElement searchBtnLink;
 	
 	public HomePage() {
 		PageFactory.initElements(driver, this);
 	}
 	
-	
+
 	//Actions
 	
     public String validatePageTitle() {
